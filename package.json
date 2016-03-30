@@ -4,6 +4,7 @@
   "description": "educational purposes",
   "main": "main.js",
   "scripts": {
+    "start": "electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jberivera/trying-electron-js/issues"
   },
-  "homepage": "https://github.com/Jberivera/trying-electron-js#readme"
+  "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.3"
+  }
 }
