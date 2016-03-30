@@ -1,0 +1,19 @@
+{
+  "name": "trying-electron-js",
+  "version": "1.0.0",
+  "description": "educational purposes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jberivera/trying-electron-js.git"
+  },
+  "author": "jberivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jberivera/trying-electron-js/issues"
+  },
+  "homepage": "https://github.com/Jberivera/trying-electron-js#readme"
+}
