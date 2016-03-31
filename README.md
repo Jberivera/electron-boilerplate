@@ -1,3 +1,3 @@
 # trying-electron-js
 
-## educational purposes.
+## with purpose of study.
