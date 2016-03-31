@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packager": "electron-packager"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
   "devDependencies": {
+    "electron-packager": "^6.0.0",
     "electron-prebuilt": "^0.37.3"
   }
 }
