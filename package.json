@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
   "devDependencies": {
+    "electron-packager": "^6.0.0",
     "electron-prebuilt": "^0.37.3"
   }
 }
