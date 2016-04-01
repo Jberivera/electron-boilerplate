@@ -4,8 +4,8 @@
   "description": "educational purposes",
   "main": "./app/app.js",
   "scripts": {
-    "start": "webpack && electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm test && webpack && electron .",
+    "test": "mocha --compilers js:babel-register --recursive",
     "packager": "electron-packager",
     "packager:linux": "electron-packager ./ --platform=linux --arch=x64",
     "packager:mac": "electron-packager ./ --platform=mas --arch=x64",
