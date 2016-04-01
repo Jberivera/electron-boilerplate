@@ -6,7 +6,10 @@
   "scripts": {
     "start": "webpack && electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "packager": "electron-packager"
+    "packager": "electron-packager",
+    "packager:linux": "electron-packager ./ --platform=linux --arch=x64",
+    "packager:mac": "electron-packager ./ --platform=mas --arch=x64",
+    "packager:win": "electron-packager ./ --platform=win32 --arch=x64"
   },
   "repository": {
     "type": "git",
