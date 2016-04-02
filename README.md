@@ -1,5 +1,26 @@
-# trying-electron-js
+# electron-boilerplate
 
-## with purpose of study.
+[![Build Status](https://travis-ci.org/Jberivera/electron-boilerplate.svg?branch=master)](https://travis-ci.org/Jberivera/webpack-react-redux-boilerplate)
+[![Dependency Status](https://david-dm.org/jberivera/electron-boilerplate.svg)](https://david-dm.org/jberivera/electron-boilerplate)
+[![devDependency Status](https://david-dm.org/jberivera/electron-boilerplate/dev-status.svg)](https://david-dm.org/jberivera/electron-boilerplate#info=devDependencies)
 
-`` npm run packager -- ./ appName --platform=linux --arch=x64 ``
+## Scripts
+
+- `npm start`
+- `npm test`
+- `npm run packTo:linux`
+- `npm run packTo:mac`
+- `npm run packTo:win`
+- `npm run packager --` [[options]](https://github.com/electron-userland/electron-packager/blob/master/usage.txt)
+
+## Technologies
+
+- [Electron](http://electron.atom.io/)
+- [Sass](http://sass-lang.com/)
+
+## Tools
+
+- [Webpack](https://webpack.github.io/)
+- [Babel](https://babeljs.io/)
+- [Mocha](https://mochajs.org/) + [Expect](https://github.com/mjackson/expect)
+- [Electron-packager](https://www.npmjs.com/package/electron-packager)
