@@ -13,6 +13,8 @@
 - `npm run packTo:win`
 - `npm run packager --` [[options]](https://github.com/electron-userland/electron-packager/blob/master/usage.txt)
 
+> Use `npm run packager --` for customized options as icon app, app-copyright and so on.
+
 ## Technologies
 
 - [Electron](http://electron.atom.io/)
