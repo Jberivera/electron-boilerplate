@@ -1,6 +1,6 @@
 # electron-boilerplate
 
-[![Build Status](https://travis-ci.org/Jberivera/electron-boilerplate.svg?branch=master)](https://travis-ci.org/Jberivera/webpack-react-redux-boilerplate)
+[![Build Status](https://travis-ci.org/Jberivera/electron-boilerplate.svg?branch=master)](https://travis-ci.org/Jberivera/electron-boilerplate)
 [![Dependency Status](https://david-dm.org/jberivera/electron-boilerplate.svg)](https://david-dm.org/jberivera/electron-boilerplate)
 [![devDependency Status](https://david-dm.org/jberivera/electron-boilerplate/dev-status.svg)](https://david-dm.org/jberivera/electron-boilerplate#info=devDependencies)
 
