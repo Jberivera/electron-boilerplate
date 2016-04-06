@@ -5,6 +5,7 @@
   "main": "./app/app.js",
   "scripts": {
     "start": "npm test && webpack && electron .",
+    "build": "webpack",
     "test": "mocha --compilers js:babel-register --recursive",
     "packager": "electron-packager",
     "packTo:linux": "electron-packager ./ --platform=linux --arch=x64",
