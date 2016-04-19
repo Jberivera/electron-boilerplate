@@ -19,7 +19,7 @@ const common = {
     loaders: [
       {
         test: /\.scss$/,
-        loader: 'style!css?sourceMap&modules!postcss!sass?sourceMap',
+        loader: 'style!css?sourceMap!postcss!sass?sourceMap',
         include: PATHS.ui
       },
       {
