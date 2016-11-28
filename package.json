@@ -16,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/Jberivera/trying-electron-js.git"
   },
-  "keywords": ["boilerplate", "electron"],
+  "keywords": [
+    "boilerplate",
+    "electron"
+  ],
   "author": "jberivera",
   "license": "MIT",
   "bugs": {
@@ -24,21 +27,22 @@
   },
   "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
   "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-preset-stage-0": "^6.5.0",
-    "babel-register": "^6.11.6",
-    "css-loader": "^0.23.1",
-    "electron-packager": "^7.6.0",
-    "electron-prebuilt": "^1.3.3",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "css-loader": "^0.26.0",
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^1.4.8",
     "expect": "^1.20.2",
-    "mocha": "^3.0.2",
-    "node-sass": "^3.8.0",
-    "postcss-loader": "^0.10.1",
-    "sass-loader": "^4.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "mocha": "^3.2.0",
+    "node-sass": "^3.13.0",
+    "postcss-loader": "^1.1.1",
+    "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-merge": "^0.14.1"
+    "webpack": "^1.13.3",
+    "webpack-merge": "^0.20.0"
   }
 }
