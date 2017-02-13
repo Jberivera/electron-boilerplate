@@ -17,23 +17,32 @@ const common = {
     filename: 'index.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.scss$/,
-        loader: 'style!css?sourceMap&modules!postcss!sass?sourceMap',
+        use: [
+          'style-loader',
+          'css-loader?sourceMap&modules',
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [
+                  require('autoprefixer')({ browsers: ['last 2 versions'] })
+                ];
+              }
+            }
+          },
+          'sass-loader?sourceMap'
+        ],
         include: PATHS.ui
       },
       {
         test: /\.js$/,
-        loaders: ['babel?cacheDirectory'],
+        loader: 'babel-loader?cacheDirectory',
         include: PATHS.ui
       }
     ]
-  },
-  postcss: function () {
-    return [
-
-    ];
   }
 };
 
