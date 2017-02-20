@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
-    "babel-register": "^6.22.0",
+    "babel-register": "^6.23.0",
     "css-loader": "^0.26.1",
     "electron-packager": "^8.5.1",
     "electron-prebuilt": "^1.4.13",
@@ -39,10 +39,10 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "mocha": "^3.2.0",
     "node-sass": "^4.5.0",
-    "postcss-loader": "^1.3.0",
-    "sass-loader": "^5.0.1",
+    "postcss-loader": "^1.3.1",
+    "sass-loader": "^6.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
-    "webpack-merge": "^2.6.1"
+    "webpack-merge": "^3.0.0"
   }
 }
